@@ -1,0 +1,67 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+*{
+	text-align: center;
+	margin :0px;
+	padding :0px;
+}
+
+@import "fonts";
+$my_font: 'GreatVibes-Regular'; 
+
+html{
+	height: 600px;
+	width:100%;
+}
+body{
+	background-color: #851015;
+	font-family: $my_font;
+	font-weight: bold;
+}
+#comingsoon {
+	border: 1px solid transparent;
+	margin-top: 250px;
+	color: #ffffff;
+}
+#comingsoon h1{
+	font-size: 2em;
+}
+#comingsoon p{
+	font-size: 2em;
+}
+#comingsoon h2{
+	font-size: 2.5em;
+}
+#comingsoon h2 em{
+	color: #E82F0C;
+}
+#userinput {
+	background-color: #E8504D;
+	border: 5px solid white;
+	border-radius: 10px;
+	height: 200px;
+	width : 300px;
+	margin-left: 520px;
+}
+#userinput #form{
+	padding-top: 20px;
+	font-size: 3em;
+	font-weight: bold;
+	color: white;
+}
+#userinput p{
+	background-color: white;
+	font-size: 2em;
+}
